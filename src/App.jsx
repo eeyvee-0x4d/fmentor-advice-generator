@@ -54,7 +54,7 @@ function App() {
   }
 
   return (
-    <div className="App h-screen flex justify-center items-center p-4">
+    <div role='main' className="App h-screen flex justify-center items-center p-4">
       <div className="relative bg-dark-grayish-blue px-8 py-16 rounded-lg w-full max-w-[400px] md:max-w-[600px] text-center flex flex-col justify-center items-center gap-8 transition-all">
         {
           loading ? (
